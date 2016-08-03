@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+
+    <script src="app/module/myapp.js"></script>
+    <script src="app/config/config.js"></script>
+    <script src="app/controllers/HomeController.js"></script>
+    <script src="app/controllers/RegisterController.js"></script>
+    <script src="app/controllers/DashboardController.js"></script>
+</head>
+<body ng-app="myapp">
+    <header>HEADER</header>
+        <br><br><br>
+            <ng-view></ng-view>
+        <br><br><br>    
+    <footer>FOOTER</footer>
+</body>
+</html>
