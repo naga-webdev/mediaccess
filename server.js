@@ -21,7 +21,7 @@ app.get("/validUser/:user",function(req,res){
 });
 
 app.get("/getUser/:name",function(req,res){
-    res.send("Hello");
+    //res.send("Hello");
 });
 
 app.post("/registerUser",function(req,res){
